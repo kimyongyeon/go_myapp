@@ -1,0 +1,43 @@
+{{set . "title" "Home"}}
+{{template "Board/header.html" .}}
+
+<table id="table_board" class="list">
+    <colgroup>
+        <col width="150">
+        <col width="60%">
+        <col width="250">
+        <col width="100">
+        <col width="150">
+    </colgroup>
+    <thead>
+    <tr>
+        <th>번호</th>
+        <th>제목</th>
+        <th>닉네임</th>
+        <th>날짜</th>
+        <th>조회수</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <td>번호</td>
+        <td><a href=#>제목</a></td>
+        <td>닉네임</td>
+        <td>2015-01-05</td>
+        <td>0</td>
+    </tr>
+    </tbody>
+    <tfoot>
+    <tr>
+        <td colspan="5">
+            <a href="#">이전</a>
+            <a href="#">1</a>
+            <a href="#">다음</a>
+            <a href="#">글쓰기</a>
+        </td>
+    </tr>
+    </tfoot>
+</table>
+</div>
+
+{{template "Board/footer.html" .}}
